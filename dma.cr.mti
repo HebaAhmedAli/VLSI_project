@@ -1,0 +1,140 @@
+C:/intelFPGA_pro/17.0/vlsi_proj/counter.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\counter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter
+-- Compiling architecture Behavioral of Counter
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/DFF.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_pro/17.0/vlsi_proj/DFF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_DFF
+-- Compiling architecture a_my_DFF of my_DFF
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/register_falling.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_pro/17.0/vlsi_proj/register_falling.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF_fall
+-- Compiling architecture a_my_nDFF_fall of my_nDFF_fall
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/DFF_rise.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\DFF_rise.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_DFF_rise
+-- Compiling architecture a_my_DFF_rise of my_DFF_rise
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/tristateBuff.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_pro/17.0/vlsi_proj/tristateBuff.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tristatebuff
+-- Compiling architecture a_tristatebuff of tristatebuff
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/my_nadder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_pro/17.0/vlsi_proj/my_nadder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nadder
+-- Compiling architecture a_my_nadder of my_nadder
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/mux2_1.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\mux2_1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_1
+-- Compiling architecture mux2_1_a of mux2_1
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_pro/17.0/vlsi_proj/register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_register_file
+-- Compiling architecture a_my_register_file of my_register_file
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/register_rising.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\register_rising.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture a_my_nDFF of my_nDFF
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/ram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_pro/17.0/vlsi_proj/ram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram
+-- Compiling architecture syncrama of ram
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/mux_2x1_1-bit.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\mux_2x1_1-bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2x1_1_bit
+-- Compiling architecture mux_2x1_1_bit_a of mux_2x1_1_bit
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/DMA.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\DMA.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dma
+-- Compiling architecture directingUnit of dma
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/mux8x1.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\mux8x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux8x1
+-- Compiling architecture a_mux8x1 of mux8x1
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/Decoder_8.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\Decoder_8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_dec8
+-- Compiling architecture a_my_dec8 of my_dec8
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/mux4.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\mux4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4
+-- Compiling architecture my_mux4 of mux4
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/decoder8.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\decoder8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_dec8
+-- Compiling architecture a_my_dec8 of my_dec8
+
+} {} {}} C:/intelFPGA_pro/17.0/vlsi_proj/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA_pro\17.0\vlsi_proj\decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_dec
+-- Compiling architecture a_my_dec of my_dec
+
+} {} {}}

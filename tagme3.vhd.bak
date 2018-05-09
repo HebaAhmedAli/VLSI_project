@@ -1,0 +1,16 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+entity tagme3 is 
+	Generic (m : integer :=);
+port ( s1,s0: in std_logic;
+	input1,input2,input3,input4: in std_logic_vector(m-1 downto 0);
+	output: out std_logic_vector(m-1 downto 0));
+end tagme3;
+
+architecture tagme3_a of tagme3 is 
+
+
+begin 
+	
+end tagme3_a;
