@@ -8,9 +8,10 @@ GENERIC ( n : integer := 8);
 		            size:IN std_logic;	
 		            inputpixel1,inputpixel2,inputpixel3,inputpixel4,inputpixel5: IN std_logic_vector(n-1 DOWNTO 0);
 		            imgAdd,lastWrAdd  : in std_logic_vector(19 DOWNTO 0);
-		            ramAddrBus	   : OUT std_logic_vector(19 DOWNTO 0);
+		            ramAddrBus   : OUT std_logic_vector(19 DOWNTO 0);
 			    outputpixel1,outputpixel2,outputpixel3,outputpixel4,outputpixel5 : OUT std_logic_vector(n-1 DOWNTO 0); 
-			    FAck,IAck: OUT std_logic);       
+			    FAck,IAck,readORs_out: OUT std_logic;
+                            counter_delayed:OUT std_logic_vector(2 DOWNTO 0));       
 END ENTITY dma;
 
 
@@ -69,9 +70,10 @@ signal  readingcntrout,readingcntr,cntrMUX5out,cntrMUX4out,counterDec,
 signal ramAddrout,ramAddInc,ramAddrMUX1out:std_logic_vector(19 downto 0);
 BEGIN   
     acc <= readIAcc or readFAcc;
-    buf<= readIReg or readFReg;
-    reg<= readIbufftwice or readFbufftwice;
+    reg<= readIReg or readFReg; ---heba --------
+    buf<= readIbufftwice or readFbufftwice; ---------heba------
     readORs <= acc or buf or reg;
+    readORs_out <= readORs;
     
 --    readFAccMUX: mux_2x1_1_bit port map('0','1',start,readFAcc);
     ---------------------------------
@@ -86,6 +88,8 @@ BEGIN
     readRegRst<= not(readingcntrout(0) or  readingcntrout(1) or readingcntrout(2)); --counter=0
 --    rFilRegL: my_DFF port map(readIAcc,Clk,acc,accDelayed);
     counterDelayed: my_nDFF_fall GENERIC MAP (n=>3) port map(Clk,hardRst,ramAddrEn,readingcntrout,readingcntrdelayedout);
+     ----- heba added-----------
+     counter_delayed <= readingcntrdelayedout;
     readingcntrdelayed1<= (not readingcntrdelayedout(0)) and (not readingcntrdelayedout(1)) and readingcntrdelayedout(2);--delayed counter=1
     ---------------------------------------
 
@@ -103,6 +107,7 @@ BEGIN
     ------------------------------------------
     
     ramAddrBusL:mux2_1 GENERIC MAP (n=>20) port map(lastWrAdd,ramAddrout,mainRegsEn,ramAddrBus);
+ 
     --------------------------------------
     readIRegL: my_DFF_rise  port map(Clk,hardRst,'1',readIAcc,readIReg);
     readFRegL: my_DFF_rise  port map(Clk,hardRst,'1',readFAcc,readFReg);

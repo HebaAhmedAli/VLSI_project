@@ -7,7 +7,7 @@ use ieee.std_logic_unsigned.all;
 entity img_address is 
 
 port (Clk,Rst,read_wind_acc,ack_F,ack_Img,stride,size : in std_logic;
-upc_out : in std_logic_vector (19 downto 0);
+upc_out : out std_logic_vector (19 downto 0);
 
 upc_Img_address : out std_logic_vector( 19 downto 0)
 
